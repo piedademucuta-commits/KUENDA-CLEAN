@@ -1,0 +1,5 @@
+Image.asset(
+  'assets/images/limpeza.png',
+  width: 80,
+  height: 80,
+)

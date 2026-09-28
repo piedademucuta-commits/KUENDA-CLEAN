@@ -1,0 +1,4 @@
+Image.asset(
+  'assets/images/banner.png',
+  fit: BoxFit.cover,
+)

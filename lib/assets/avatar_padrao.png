@@ -1,0 +1,6 @@
+CircleAvatar(
+  radius: 50,
+  backgroundImage: AssetImage(
+    'assets/images/avatar_padrao.png',
+  ),
+)

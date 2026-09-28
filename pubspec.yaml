@@ -1,0 +1,68 @@
+name: kuenda_clean
+
+description: Aplicativo Kuenda Clean
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+
+  # Base de dados
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+
+  # Armazenamento local
+  shared_preferences: ^2.2.3
+
+
+  # Segurança
+  crypto: ^3.0.7
+
+
+  # Seleção de imagens
+  image_picker: ^1.2.3
+
+
+  # Links, telefone, WhatsApp, e-mail
+  url_launcher: ^6.3.2
+
+
+  # Gráficos administrativos
+  fl_chart: ^0.68.0
+
+
+  # Datas
+  intl: ^0.19.0
+  sqflite_common_ffi_web: ^1.2.0
+
+
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+
+    - assets/images/
